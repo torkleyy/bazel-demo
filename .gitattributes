@@ -2,9 +2,11 @@
 
 *.c text eol=lf
 *.cc text eol=lf
+*.h text eol=lf
 *.md text eol=lf
 BUILD text eol=lf
 WORKSPACE text eol=lf
 
 .gitignore text eol=lf
 .gitattributes text eol=lf
+.bazelignore text eol=lf

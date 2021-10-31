@@ -1,5 +1,6 @@
 
 cc_binary(
-	name = "main",
-	srcs = glob(["*.cc"])
+	name = "hello-bazel",
+	srcs = glob(["*.cc"]),
+	deps = ["//cpp-library:utils"]
 )
