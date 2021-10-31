@@ -1,11 +1,9 @@
-use serde::{Deserialize, Serialize};
+use rand::random;
 
-#[derive(Deserialize, Serialize)]
-struct Foo {
-    x: i32,
-    y: i32,
-}
 
 fn main() {
     println!("Hello, Bazel from Rust!");
+    let nr: u8 = random();
+
+    println!("Here, a random number: {}", nr);
 }
